@@ -1,10 +1,10 @@
 {
-  "name": "cpf-cnpj-input",
+  "name": "react-cpf-cnpj-input",
   "version": "1.0.0",
   "description": "A React component that creates an input for entering masked CPF or CNPJ in the same field",
   "author": "jesobreira",
   "license": "MIT",
-  "repository": "jesobreira/react-cpfcnpjinput",
+  "repository": "https://github.com/jesobreira/react-cpfcnpjinput",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "js-brasil": "^2.1.0"
+  }
 }
